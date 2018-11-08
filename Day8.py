@@ -9,6 +9,6 @@ for i in range(num):
 for i in range(num):
     user_input = input('')
     if user_input in d:
-        print(str(user_input),'=',int(d[user_input]),sep='')
+        print(str(user_input), '=', int(d[user_input]), sep='')
     else:
         print('Not found')
